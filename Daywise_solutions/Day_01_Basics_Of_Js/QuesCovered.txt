@@ -1,2 +1,42 @@
 
 
+
+//  DAY_28_DSA IN JS 
+
+       topics => 
+
+ --Q sum of two numbers
+ -- relaton between integer and string 
+ -- type coercion 
+ -- type casting (conversion )
+  Q--Accept input from the usr and print it 
+  Q-- Swap two number via 3 methods
+
+ -- Operators and theire que.
+ --# Arithmatic operators ' + ','-', ' * ','/', '%' ..
+ --# Logical operators ->  '&&' , '|| '
+ --# Relational Operators  '>' ,'<' ,'>=' , '<=' , != , == , !== , === 
+ --# Unary operators ++ , -- 
+
+
+ 
+-- 2️⃣relation between integer and string 
+
+ jab console me print kiya hua ans blue color me dikhe to vo ek integer hai 
+
+or jab -- console me print kiya hua ans . black me dikhe to vo ek string hai 
+
+let a = "Hello World" // " "  jo bhi in dubble qutas ke under likha jata hai vo as String mana jata hai
+
+let b = " 24 "  //  yaha pr 24 ek integer hai pr " " ke karan ya ek  String value bn jati hai js me ya js ingine ke dwara
+
+let c = 23; // that is integer
+
+// jab bhi hme uske type ko check karna ho ki  integer hai ya string hm  'typeOf' function ka use karte hai 
+
+// eg 
+console.log(typeof(c))// it will print number
+
+
+console.log(typeof(b)) // it will print string 
+
