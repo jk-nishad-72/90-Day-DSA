@@ -28,9 +28,10 @@ Here is a **complete set of JavaScript notes** covering important **Math functio
 ```js
 function compoundInterest(p, r, t) {
   let amount = p * Math.pow((1 + r / 100), t);
-  return amount.toFixed(2);
+    
+  return (amount-p).toFixed(2);
 }
-console.log(compoundInterest(1000, 10, 2)); // 1210.00
+console.log(compoundInterest(1000, 10, 2)); // 210.00
 ```
 
 **Algorithm**:
