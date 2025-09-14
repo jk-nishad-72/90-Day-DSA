@@ -1,0 +1,12 @@
+
+ Day3 DSA Advance if-else Que and loop Introduction
+
+
+ 1)leap year 
+ 2) shop discount 
+ 3) bijli bill 
+ 
+loop 
+entry control -> a) for , b) while 
+
+and exite control a) while loop 
