@@ -9,4 +9,5 @@
 ✅ Q6. Factorial of a Number
 ✅ Q7. Sum of Even and Odd Numbers in Range
 ✅ Q8. All Factors of a Number
-✅ Q9. Check Prime (Three Methods)
+✅ Q9. Check Prime (Three Methods) 
+
