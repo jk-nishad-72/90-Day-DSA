@@ -98,6 +98,7 @@ function chekPrime(n) {
 }
 console.log(chekPrime(n));
 
+
 // * ✅ Homework
 //* accept input a and b and calculate a^b without using Math.pow
 
