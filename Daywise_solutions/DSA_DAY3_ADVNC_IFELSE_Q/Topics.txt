@@ -7,6 +7,7 @@
  3) bijli bill 
  
 loop 
+
 entry control -> a) for , b) while 
 
 and exite control a) while loop 
