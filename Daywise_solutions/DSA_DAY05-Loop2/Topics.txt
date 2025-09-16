@@ -1,7 +1,14 @@
 
+DSA_DAY_5:WHILE LOOP2
+
+
 ✅ break and continue (Demo)
 ✅ while loop: Print numbers from 1 to 5
 ✅ Q. Sum of Digits
 ✅ Q. Reverse of a Number
 ✅ Automorphic Number (Using Digit Count and Modulo)
+🔄 Switch Statement
+
+
+
 ✅ Q. Strong Number
