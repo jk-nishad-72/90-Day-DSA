@@ -1,0 +1,12 @@
+
+## Day 06
+
+—do-while
+
+Q. Repeat hello (use do while if )
+
+Q. Guess the number 
+
+Q. sasta Calculator (using do while)   
+
+Q.Project restruant (using switchcase and do while)
