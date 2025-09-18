@@ -37,14 +37,16 @@ Q 38. Inverted Right Angle Triangle
 *
 
 Q 39 
-* * * * *
-* * * *
-* * *
-* *
-*
+1 2 3 4 5
+1 2 3 4 
+1 2 3 
+1 2 
+1 
 
-* * * * *
-* * * *
-* * *
-* *
-*
+Q 40
+A B C D E 
+A B C D 
+A B C 
+A B 
+A 
+
