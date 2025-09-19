@@ -31,7 +31,11 @@ console.log();
 
 /*
  Q2 
-
+        * 
+      * * 
+    * * * 
+  * * * * 
+* * * * * 
  
  */ 
 
@@ -97,7 +101,7 @@ console.log((printVShapePattern(n)));
 /*
  Q4
 
- *           *
+ *          *
   *       *
     *   *
       *
