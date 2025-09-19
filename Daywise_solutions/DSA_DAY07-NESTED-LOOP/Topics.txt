@@ -5,8 +5,6 @@ DAY_07_DSA : NESTED LOOPING ;
 
 —Pattern programming
 
- 
-
 Q 35. Right Angle Traingle
 *
 * *
