@@ -29,6 +29,9 @@ console.log();
 
 
 
+// * Q2 
+
+
 function printMirroredRightTriangle(n) {
    
     
@@ -54,7 +57,7 @@ console.log(printMirroredRightTriangle(n));
 
 
 /**
- *  Q21
+ *  Q 3
  *
  */
 
@@ -80,7 +83,7 @@ console.log((printVShapePattern(n)));
 
 
 
-// * 22
+// * Q4
 
 function printXShapePattern(n) {
     // Write your logic here
