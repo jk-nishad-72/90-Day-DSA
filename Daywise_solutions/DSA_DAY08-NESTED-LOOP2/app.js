@@ -17,10 +17,10 @@ for(let i =1;i<=n;i++){
 
 for(let j = 1;j<=n-i;j++)
 {
-     process.stdout.write(" " ) 
+     process.stdout.write(" ") 
 }
 for(let k =1;k<=i;k++){
-      process.stdout.write("*") 
+      process.stdout.write('*' + ' ') 
 }
 
 console.log();
@@ -29,7 +29,11 @@ console.log();
 
 
 
-// * Q2 
+/*
+ Q2 
+
+ 
+ */ 
 
 
 function printMirroredRightTriangle(n) {
@@ -56,9 +60,16 @@ console.log(printMirroredRightTriangle(n));
 
 
 
-/**
- *  Q 3
- *
+/*
+   Q 3
+
+ *         *
+  *      *
+    *   *
+     * *
+      *
+ 
+ 
  */
 
 
@@ -83,7 +94,19 @@ console.log((printVShapePattern(n)));
 
 
 
-// * Q4
+/*
+ Q4
+
+ *           *
+  *       *
+    *   *
+      *
+    *   *
+  *       *
+*           *
+
+
+*/
 
 function printXShapePattern(n) {
     // Write your logic here
