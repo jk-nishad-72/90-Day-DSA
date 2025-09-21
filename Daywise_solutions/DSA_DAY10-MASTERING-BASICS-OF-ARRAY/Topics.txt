@@ -1,0 +1,16 @@
+
+#DSA_Day_10 MASTERING BASICS OF ARRAY 
+
+—Strong Number (nested loop que .  )
+
+— Array
+
+— Introduction
+
+— Fixed and dynamic size array
+
+— Accept value from user and assign in the array
+
+— Q 23. Sum of array’s element
+
+— Q 24. Max element from array✅
