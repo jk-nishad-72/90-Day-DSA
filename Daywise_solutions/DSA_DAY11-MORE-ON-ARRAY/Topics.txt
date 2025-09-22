@@ -1,0 +1,15 @@
+
+## DSA_Day_11 : MORE ON ARRAYS
+
+— Q 25. Second max element from array 
+
+— Q 26. Reverse the array  :-
+      a.)with extra space 
+      b.)without extra space (2 poiter algo)
+       
+— Q 27. All zeroes to left and all ones to right (2 poiter)
+
+— Q 28. Array left Rotation by 1 
+
+— Q 29. Array right Rotation by 1 
+
