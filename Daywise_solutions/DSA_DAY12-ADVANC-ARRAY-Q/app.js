@@ -66,9 +66,57 @@ function leftRotationUsingExtraSpace(arr,k){
     return copy
 
 }
-console.log(leftRotationUsingExtraSpace(arr,k));
+// console.log(leftRotationUsingExtraSpace(arr,k));
 
 
+
+//*c) 2(i,j) pointer algoritham ()
+
+
+leftRotationByK2Poiter(arr,0,k-1)
+leftRotationByK2Poiter(arr,k,arr.length-1)
+leftRotationByK2Poiter(arr,0,arr.length-1)
+
+console.log(arr);
+
+function leftRotationByK2Poiter(arr,i,j){
+
+    while(i<j){
+
+        let temp = arr[i]
+        arr[i] = arr[j]
+        arr[j] = temp;
+        i++
+        j--
+    }
+
+    return arr
+
+}
+
+
+//*Homework Right Rotatin By k  using 2 poiter 
+
+RightRotationByK2Poiter(arr,0,arr.length-1)
+RightRotationByK2Poiter(arr,k,arr.length-1)
+RightRotationByK2Poiter(arr,0,k-1)
+
+console.log(arr);
+
+function RightRotationByK2Poiter(arr,i,j){
+
+    while(i<j){
+
+        let temp = arr[i]
+        arr[i] = arr[j]
+        arr[j] = temp;
+        i++
+        j--
+    }
+
+    return arr
+
+}
 
 
 
