@@ -49,7 +49,9 @@ while(i<=k){
 return arr
 }
 
-console.log(leftBruiterotationByk(arr,k));
+// console.log(leftBruiterotationByk(arr,k));
+
+
 
 
 
