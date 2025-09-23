@@ -1,4 +1,36 @@
 
+//* Taking array input 
+
+const e = require('express');
+
+let prompt = require('prompt-sync')();
+let size = Number(prompt('Enter Array Size : '))
+let arr = new Array(size)
+
+for(let i =0;i<size;i++){
+    arr[i] = Number(prompt('Enter Array Elements : '))
+
+}
+
+console.log(arr)
+
+
+
+/**
+— Q 29. Array left rotation by K elements
+   Three method to solve  it :-
+   a) Bruite force 
+   b) with extra space 
+   c) 2(i,j) pointer algoritham ()
+
+ */
+
+//*  a) Bruite force 
+
+
+
+
+
 
 
 
@@ -21,3 +53,23 @@ function linearSearch(arr, target) {
 
 
 console.log(linearSearch([1,2,3,4,5],6))
+
+//*— Q 31. Binary Search 
+
+function BinarySearch(arr,target){
+    let start = 0;
+    let end = arr[arr.length-1]
+
+while(start<end){
+
+    let mid = Math.floor(start+(end-start)/2)
+
+    if(arr[mid]===target){ return mid }
+     else if(arr[mid]<target) { start = mid+1 }
+     else { end = mid-1}
+}
+
+}
+
+console.log(BinarySearch([2,23,45,60,69,96],96));
+
