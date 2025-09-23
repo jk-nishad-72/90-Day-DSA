@@ -27,6 +27,32 @@ console.log(arr)
 
 //*  a) Bruite force 
 
+let k = Number(prompt('Enter value of k : '))
+
+function leftBruiterotationByk(arr,k){
+
+    
+let i =1;
+while(i<=k){
+
+    let cp  = arr[0]
+
+    for(let i = 0 ;i<arr.length-1;i++){
+           arr[i] = arr[i+1]
+         
+    }
+    arr[arr.length-1] = cp
+     i++
+
+}
+
+return arr
+}
+
+console.log(leftBruiterotationByk(arr,k));
+
+
+
 
 
 
@@ -52,7 +78,7 @@ function linearSearch(arr, target) {
 }
 
 
-console.log(linearSearch([1,2,3,4,5],6))
+// console.log(linearSearch([1,2,3,4,5],6))
 
 //*— Q 31. Binary Search 
 
@@ -71,5 +97,5 @@ while(start<end){
 
 }
 
-console.log(BinarySearch([2,23,45,60,69,96],96));
+// console.log(BinarySearch([2,23,45,60,69,96],96));
 
