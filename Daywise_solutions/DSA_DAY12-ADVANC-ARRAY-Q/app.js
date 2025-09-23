@@ -29,6 +29,8 @@ console.log(arr)
 
 let k = Number(prompt('Enter value of k : '))
 
+k = k%arr.length
+
 function leftBruiterotationByk(arr,k){
 
     
@@ -50,6 +52,25 @@ return arr
 }
 
 // console.log(leftBruiterotationByk(arr,k));
+
+//*  b) with extra space 
+
+function leftRotationUsingExtraSpace(arr,k){
+
+    let copy = new Array(arr.length)
+
+    for(let i = 0;i<arr.length;i++){
+        copy[i] = arr[(i+k)%arr.length];
+    }
+
+    return copy
+
+}
+console.log(leftRotationUsingExtraSpace(arr,k));
+
+
+
+
 
 
 
