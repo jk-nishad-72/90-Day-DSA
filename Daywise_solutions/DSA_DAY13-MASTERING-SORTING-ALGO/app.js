@@ -35,3 +35,30 @@ function bubbleSort(arr) {
 console.log(bubbleSort(arr));
 
 
+
+//*→2.slection sort , 
+
+function selectionSort(arr) {
+    
+    for(let i = 0;i<arr.length;i++){
+        
+        let small = i;
+         
+         for(let j  = 1+i ;j<arr.length;j++){
+             
+             if(arr[small] > arr[j]){
+                 
+                 small = j
+             }
+         }
+         
+         if(i!==small){
+             let cp = arr[small]
+             arr[small] = arr[i]
+             arr[i] = cp
+         }
+    }
+    
+}
+
+
