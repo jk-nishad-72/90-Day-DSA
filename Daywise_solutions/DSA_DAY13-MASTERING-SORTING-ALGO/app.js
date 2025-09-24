@@ -1,3 +1,17 @@
+let prompt = require('prompt-sync')();
+
+let size = Number(prompt('Enter Array size : '))
+
+let arr  = new Array(size)
+
+for(let i =0;i<arr.length;i++){
+
+    arr[i]= Number(prompt("Enter Array elements : "))
+
+}
+
+console.log(arr)
+
 
 //*→1. Bubble sort ,
 
@@ -14,6 +28,10 @@ function bubbleSort(arr) {
             }
         }
     }
+    return arr
     
 }
+
+console.log(bubbleSort(arr));
+
 
