@@ -1,0 +1,12 @@
+
+#DSA_DAY_13:MASTERING-SORTING ALGO 
+
+—Sorting algorithm ,
+
+[stable and unstable alogrithm]
+
+→1. Bubble sort ,
+
+→2.Insertion sort , 
+
+→3.selection sort

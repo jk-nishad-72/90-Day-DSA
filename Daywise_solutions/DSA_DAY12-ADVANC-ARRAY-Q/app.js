@@ -25,6 +25,7 @@ console.log(arr)
 
  */
 
+   
 //*  a) Bruite force 
 
 let k = Number(prompt('Enter value of k : '))
@@ -150,6 +151,7 @@ function linearSearch(arr, target) {
 
 
 // console.log(linearSearch([1,2,3,4,5],6))
+
 
 //*— Q 31. Binary Search 
 
