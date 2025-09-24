@@ -34,9 +34,26 @@ function bubbleSort(arr) {
 
 console.log(bubbleSort(arr));
 
+//*→2.Insertion sort , 
+
+function insertionSort(arr) {
+    for(let i = 1;i<arr.length;i++)
+    {
+        let key = arr[i]
+        let j = i-1;
+        while(j>=0&& arr[j]>key){
+            arr[j+1]=arr[j]
+            j--
+        }
+        arr[j+1] = key;
+    }
+    return arr
+}
+
+console.log(insertionSort(arr));
 
 
-//*→2.slection sort , 
+//*→3.selection sort , 
 
 function selectionSort(arr) {
     
@@ -58,7 +75,11 @@ function selectionSort(arr) {
              arr[i] = cp
          }
     }
+
+    return arr
     
 }
+
+console.log(selectionSort(arr));
 
 
