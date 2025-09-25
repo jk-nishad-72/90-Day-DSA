@@ -1,0 +1,25 @@
+
+## DSA_DAY_14 
+
+—Complexity
+
+—Time Complexity
+
+—Handling for large input
+
+—Complexity Representation
+
+—Type and Graph
+
+—Generating complexity equation
+
+—TLE
+
+—Space Complexity
+
+—Questions
+
+
+
+
+
