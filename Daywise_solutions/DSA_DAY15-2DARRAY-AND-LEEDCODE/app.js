@@ -1,5 +1,11 @@
 
 
+
+let  mat = [ [1,1,1,1],
+              [1,1,1,1],
+              [1,1,1,1],
+              [1,1,1,1]]
+
 //* —Q 31. 1572. Matrix Diagonal Sum
 
 function diagonalSum(mat) {
