@@ -32,3 +32,5 @@ function diagonalSum(mat) {
     return rightsum+lerfsum
     
 }
+
+console.log(diagonalSum(mat));
