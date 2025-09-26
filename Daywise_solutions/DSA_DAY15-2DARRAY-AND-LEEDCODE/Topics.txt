@@ -1,0 +1,8 @@
+
+## DSA_DAY_15 
+
+—Multi D-Array
+
+—Questions
+
+—Q 31. 1572. Matrix Diagonal Sum
