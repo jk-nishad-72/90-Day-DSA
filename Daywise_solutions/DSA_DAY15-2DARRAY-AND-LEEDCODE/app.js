@@ -1,10 +1,31 @@
+//*—Multi D-Array
 
+let prompt = require('prompt-sync')();
 
+function ArrayInput(){
+    let OuterASize = Number(prompt('Enter a Big Array size : '))
 
-let  mat = [ [1,1,1,1],
-              [1,1,1,1],
-              [1,1,1,1],
-              [1,1,1,1]]
+let OuterArr = new Array(OuterASize)
+
+for(let i = 0;i<OuterArr.length;i++){
+
+     let innerAsize = Number(prompt("Enter innerArray size "))
+    OuterArr[i] = new Array(innerAsize)
+
+    for(let j = 0;j<OuterArr[i].length;j++){
+         
+         OuterArr[i][j] = Number(prompt('Enter elements : '))
+    }
+
+}
+ return (OuterArr)
+}
+
+ArrayInput()
+// let  mat = [ [1,1,1,1],
+//               [1,1,1,1],
+//               [1,1,1,1],
+//               [1,1,1,1]]
 
 //* —Q 31. 1572. Matrix Diagonal Sum
 
@@ -39,4 +60,9 @@ function diagonalSum(mat) {
     
 }
 
-console.log(diagonalSum(mat));
+console.log(diagonalSum(OuterArr));
+
+
+
+let NewArr = Array.from({length:3}).fill(0)
+console.log(NewArr)
