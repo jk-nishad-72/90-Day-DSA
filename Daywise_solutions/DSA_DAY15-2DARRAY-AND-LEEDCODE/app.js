@@ -66,3 +66,6 @@ console.log(diagonalSum(OuterArr));
 
 let NewArr = Array.from({length:3}).fill(0)
 console.log(NewArr)
+
+
+
