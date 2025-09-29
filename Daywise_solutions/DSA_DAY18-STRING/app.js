@@ -80,19 +80,52 @@ for(let i = 0;i<s.length;i++){
 function AccptStrAndPrintEachCharRvrse(){
 
      let st = prompt('Enter any String value : ')
-
+      let reverse = ''
      for(let i=st.length-1;i>=0;i--){
-        console.log(st[i]);
-
-        
+         reverse += st[i]
      }
+
+     return reverse
 }
 
-// AccptStrAndPrintEachCharRvrse()
+console.log(AccptStrAndPrintEachCharRvrse());
+
 
 
 
 //* — Q 57. Pallindromic String  using Two pointer algorithm (hint: Array reverse algo) [Homework]
+
+
+function checkPalindromicString(){
+    
+let str = prompt('Check Palindromic String : ').trim()
+
+ let i = 0;
+ let j = str.length-1;
+ let flage = 1
+
+ while(i<j){
+    if(str.charAt(i) === str.charAt(j)){
+         
+          i++
+          j--
+
+    }else {
+        flage = 0
+        break
+    }
+
+ }
+
+ if(flage) return('Palindromic String ');
+ else return('Not Palindromic String ');
+}
+
+console.log(checkPalindromicString());
+
+ 
+ 
+
 
 
 
