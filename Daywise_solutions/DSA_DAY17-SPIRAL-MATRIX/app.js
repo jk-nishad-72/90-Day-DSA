@@ -41,3 +41,7 @@ var spiralOrder = function(matrix) {
 
  return ans
 };
+
+let arr = [[1,2,3], [4,5,6] ,[7,8,9]]
+
+console.log(arr.flat().includes(5));
