@@ -1,0 +1,67 @@
+ #DSA_DAY_18
+ 
+—Q 35. 832.Flipping an Image [Homework]
+
+—Introduction of String
+
+—methods of string
+
+| `length` | Returns string length |
+| --- | --- |
+
+| `slice(start, end)` | Extracts substring |
+| --- | --- |
+
+| `substring(start, end)` | Similar to `slice`, but no negative indexes |  |
+| --- | --- | --- |
+
+| `substr(start, length)` | Extracts part of string with length |
+| --- | --- |
+
+| `toUpperCase()` | Converts to uppercase |
+| --- | --- |
+
+| `toLowerCase()` | Converts to lowercase |
+| --- | --- |
+
+| `concat()` | Concatenates strings |
+| --- | --- |
+
+| `trim()` | Removes spaces from both sides |
+| --- | --- |
+
+| `indexOf(substring)` | Returns first index of substring |
+| --- | --- |
+
+| `lastIndexOf(substring)` | Returns last index of substring |
+| --- | --- |
+
+| `includes(substring)` | Checks if substring exists |
+| --- | --- |
+
+| `startsWith(substring)` | Checks if string starts with substring |
+| --- | --- |
+
+| `endsWith(substring)` | Checks if string ends with substring |  |
+| --- | --- | --- |
+
+| `replace(old, new)` | Replaces first occurrence of substring |
+| --- | --- |
+
+| `replaceAll(old, new)` | Replaces all occurrences |
+| --- | --- |
+
+| `split(separator)` | Splits string into an array |
+| --- | --- |
+
+| `charAt(index)` | Returns character at index |
+| --- | --- |
+
+| `charCodeAt(index)` | Returns Unicode value of character0 |
+| --- | --- |
+
+— Q 55. Accept a string from user and print its each character on a new line
+
+— Q 56. Accept a string and print it in reverse order
+
+— Q 57. Pallindromic String  using Two pointer algorithm (hint: Array reverse algo) [Homework]
