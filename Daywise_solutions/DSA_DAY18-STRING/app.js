@@ -1,144 +1,103 @@
-
-
-let prompt = require('prompt-sync')();
+let prompt = require("prompt-sync")();
 
 /**
- * 
+ *
  */
 
-function AcceptArray(){
-    let BASize = Number(prompt('Enter Outer Array size : '))
+function AcceptArray() {
+  let BASize = Number(prompt("Enter Outer Array size : "));
 
-let OArr = new Array(BASize)
+  let OArr = new Array(BASize);
 
-for(let i = 0;i<OArr.length;i++){
-     let SASize = Number(prompt('Enter Inner Array size: '))
+  for (let i = 0; i < OArr.length; i++) {
+    let SASize = Number(prompt("Enter Inner Array size: "));
 
-     OArr[i] = new Array(SASize)
+    OArr[i] = new Array(SASize);
 
-     for(let j = 0;j<OArr[i].length;j++){
+    for (let j = 0; j < OArr[i].length; j++) {
+      OArr[i][j] = Number(prompt("Enter Array Elements : "));
+    }
+  }
 
-        OArr[i][j] = Number(prompt('Enter Array Elements : '))
-     }
-     
-}
-
-return OArr
+  return OArr;
 }
 //  let image = (AcceptArray());
 
 //  console.log(image);
- 
 
 //—Q 35. 832.Flipping an Image [Homework]
 
-
-var flipAndInvertImage = function(image) {
- for(let i = 0;i<image.length;i++){
-      let j = 0;let k = image[i].length-1;
-      while(j<k){
-        let temp = image[i][j] 
-        image[i][j] = image[i][k]
-        image[i][k] = temp
-        j++
-        k--
-      } }
-  for(let i = 0;i<image.length;i++){
-    for(let j = 0;j<image[i].length;j++){
-        if(image[i][j]===0) image[i][j] = 1;
-        else if(image[i][j]===1) image[i][j]=0;
+var flipAndInvertImage = function (image) {
+  for (let i = 0; i < image.length; i++) {
+    let j = 0;
+    let k = image[i].length - 1;
+    while (j < k) {
+      let temp = image[i][j];
+      image[i][j] = image[i][k];
+      image[i][k] = temp;
+      j++;
+      k--;
     }
   }
-return image  
+  for (let i = 0; i < image.length; i++) {
+    for (let j = 0; j < image[i].length; j++) {
+      if (image[i][j] === 0) image[i][j] = 1;
+      else if (image[i][j] === 1) image[i][j] = 0;
+    }
+  }
+  return image;
 };
 
 // console.log(flipAndInvertImage(image));
 
-
 //*— Q 55. Accept a string from user and print its each character on a new line
 
+function AccptStrAndPrintEachChar() {
+  let s = prompt("Enter any String value : ");
 
-function AccptStrAndPrintEachChar(){
-    let s = prompt('Enter any String value : ')
-
-for(let i = 0;i<s.length;i++){
-
+  for (let i = 0; i < s.length; i++) {
     // console.log(s[i]);
     console.log(s.charAt(i));
 
     // process.stdout.write( ' '+ s[i])
-    
-}
-
+  }
 }
 
 // AccptStrAndPrintEachChar()
 
-
 //* — Q 56. Accept a string and print it in reverse order
 
-function AccptStrAndPrintEachCharRvrse(){
+function AccptStrAndPrintEachCharRvrse() {
+  let st = prompt("Enter any String value : ");
+  let reverse = "";
+  for (let i = st.length - 1; i >= 0; i--) {
+    reverse += st[i];
+  }
 
-     let st = prompt('Enter any String value : ')
-      let reverse = ''
-     for(let i=st.length-1;i>=0;i--){
-         reverse += st[i]
-     }
-
-     return reverse
+  return reverse;
 }
-
 console.log(AccptStrAndPrintEachCharRvrse());
-
-
-
 
 //* — Q 57. Pallindromic String  using Two pointer algorithm (hint: Array reverse algo) [Homework]
 
+function checkPalindromicString() {
+  let str = prompt("Check Palindromic String : ").trim();
 
-function checkPalindromicString(){
-    
-let str = prompt('Check Palindromic String : ').trim()
+  let i = 0;
+  let j = str.length - 1;
+  let flage = 1;
 
- let i = 0;
- let j = str.length-1;
- let flage = 1
-
- while(i<j){
-    if(str.charAt(i) === str.charAt(j)){
-         
-          i++
-          j--
-
-    }else {
-        flage = 0
-        break
+  while (i < j) {
+    if (str.charAt(i) === str.charAt(j)) {
+      i++;
+      j--;
+    } else {
+      flage = 0;
+      break;
     }
+  }
 
- }
-
- if(flage) return('Palindromic String ');
- else return('Not Palindromic String ');
+  if (flage) return "Palindromic String ";
+  else return "Not Palindromic String ";
 }
-
 console.log(checkPalindromicString());
-
- 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
