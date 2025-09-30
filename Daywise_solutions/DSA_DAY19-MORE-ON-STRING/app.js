@@ -34,7 +34,7 @@ return output
 
 }
 
-console.log(ToggleEachChar());
+// console.log(ToggleEachChar());
 
 
 /**
@@ -43,5 +43,30 @@ in words that contain pref as a prefix.
 Example - Input: words = ["pay","attention","practice","attend"], pref = "at"
 Output: 2
  */
+
+let words = ["pay","attention","practice","attend"]
+
+let pref = "at"
+
+
+function CountNumberOfPrefix(words , pref){
+     let count = 0
+for(let  i =0;i<words.length;i++){
+
+     let word = words[i]
+
+     if(word.startsWith(pref)) count++
+
+}
+
+ return (count);
+}
+
+console.log(CountNumberOfPrefix(words,pref));
+
+
+
+
+
 
 
