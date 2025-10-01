@@ -14,4 +14,6 @@ night and thing etc.
 
 —Mastering Basics of   SET 
 
-— Q 63.Jewels and Stones
+— Q 63. Check if the pangram or not
+
+— Q 64.Jewels and Stones
