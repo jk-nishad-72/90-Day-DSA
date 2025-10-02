@@ -1,0 +1,11 @@
+
+##DSA_DAY_21:SET AND MAP 
+
+— Q 64.Jewels and Stones 
+— Q 65. 202. Happy Number**
+
+** —Map
+
+-Map properties And Methods
+
+—Q 66.Find the frequency of each element
