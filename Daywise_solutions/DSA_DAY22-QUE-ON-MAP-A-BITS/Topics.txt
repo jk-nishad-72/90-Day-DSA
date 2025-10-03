@@ -1,0 +1,14 @@
+
+##DSA_DAY_22: Q. ON MAP & BITWISE
+
+—Q 67.Two Sum ✔️
+
+—Q 68.First letter appears twice ✔️
+
+—Q 69.Sort the people
+
+### *—Bitwise operator
+
+—Decimal to Binary 
+
+—Binay to Decimal
