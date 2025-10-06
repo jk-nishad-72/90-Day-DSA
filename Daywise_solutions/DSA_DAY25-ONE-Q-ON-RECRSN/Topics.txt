@@ -1,0 +1,6 @@
+
+##DSA_DAY_25:
+
+—Q 74.Print natural number 1-n / n-1
+
+—Q 75.Sum/factorial
