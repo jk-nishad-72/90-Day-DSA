@@ -17,6 +17,7 @@ function fibonacciSeries(n, a = 0, b = 1) {
     fibonacciSeries(n - 1, b, a + b);
 }
 
+console.log(`First ${n} terms of Fibonacci series:`);
 
 
 
