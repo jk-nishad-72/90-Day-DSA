@@ -12,12 +12,16 @@ let n = Number(prompt("Enter a number: "));
 
 
 function fibonacciSeries(n, a = 0, b = 1) {
-    if (n === 0) return;
-    console.log(a);
+    if (n === 0) return
+
+   process.stdout.write(a + " ");
+
     fibonacciSeries(n - 1, b, a + b);
 }
+(fibonacciSeries(n))
 
-console.log(`First ${n} terms of Fibonacci series:`);
+console.log();
+
 
 
 
@@ -30,3 +34,6 @@ function fibonacciNth(n) {
     if (n === 1) return 1;
     return fibonacciNth(n - 1) + fibonacciNth(n - 2);
 }
+
+
+console.log(`The ${n}th term in Fibonacci series is: ${fibonacciNth(n)}`);
