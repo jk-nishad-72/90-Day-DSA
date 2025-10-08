@@ -1,0 +1,6 @@
+
+##DSA_DAY_27:Recursion and Math Problems 
+
+—Q 77.sum of digit  // 891 → 18
+
+—Q 78.reverse of digit  // 891 → 198
