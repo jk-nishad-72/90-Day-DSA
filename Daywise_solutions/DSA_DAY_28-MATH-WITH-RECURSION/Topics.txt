@@ -1,0 +1,18 @@
+
+##DSA_DAY_28: —Maths With Recursion
+
+
+
+—Q 77.GCD (Greatest Common Divisor)  
+                OR 
+     .HCF(Highest common Factor)
+
+—Q 78.1979.Find the greatest Common divisor
+
+3 Way to solve it =>
+
+1. )Using For loop  TC(O(min(a,b))
+2. )Euclidean Method ➖ TC(O(max(a,b))
+       a) With While loop 
+       b) with Recursion 
+1. ) Using Algorithm TC (O(logn))
