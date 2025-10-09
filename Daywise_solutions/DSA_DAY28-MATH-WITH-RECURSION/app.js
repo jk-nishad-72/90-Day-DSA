@@ -24,7 +24,8 @@ function gcd() {
 
 //*2.)Euclidean Method ➖ )
 
-function gcd2() {
+//* a)using while loop  TC(O(log(max(a,b)))
+function gcd2a() {
     let a  = Number(prompt('Enter first number: '));
     let b  = Number(prompt('Enter second number: ')); 
 
@@ -38,7 +39,27 @@ function gcd2() {
 
 }
 
-gcd2();
+// gcd2a();
+
+  //* b) with Recursion  TC(O(log(max(a,b))) ➡️
+
+
+  function gcdMethod2(){
+    let a = Number(prompt('Enter first number: '));
+    let b = Number(prompt('Enter second number: '));
+    
+  function gcd2b(a,b) {
+    if(a===b) return a;
+    if(a>b) a = a-b;
+    else b = b-a;
+    return gcd2b(a,b);
+    
+  }
+
+    console.log(`GCD of given two numbers is ${gcd2b(a,b)}`);
+
+  }
+gcdMethod2();
 
 
 
