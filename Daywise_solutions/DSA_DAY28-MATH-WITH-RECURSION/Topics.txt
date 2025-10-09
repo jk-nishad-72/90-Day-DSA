@@ -15,4 +15,4 @@
 2. )Euclidean Method ➖ TC(O(max(a,b))
        a) With While loop 
        b) with Recursion 
-1. ) Using Algorithm TC (O(logn))
+3. ) Using Algorithm TC (O(logn))
