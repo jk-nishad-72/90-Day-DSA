@@ -1,0 +1,8 @@
+
+##DSA_DAY_29:  MATH-CHALENGE ✅➡️
+
+—Q 80.Count of primes (Sieve of eratosthenes) 
+
+—Q 81. 69.Sqrt(x)
+
+—Q 82. 50.Pow(x,n)
