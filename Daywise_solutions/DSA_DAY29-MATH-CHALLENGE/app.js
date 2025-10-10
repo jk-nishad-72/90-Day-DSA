@@ -110,3 +110,57 @@ console.log("\n");
 //* Optimised O(log n)
 
 
+//* —Q 82. 50.Pow(x,n) 
+
+
+//* Brute Force O(n)
+function powBruteForce() {
+
+    let x = Number(prompt("Eneter x number: "));
+    let n = Number(prompt("Eneter n number: "));
+
+     let ans = 1;
+     for(let i = 1;i<=Math.abs(n);i++){
+
+        ans = ans*x
+     }
+
+      if(n<0) ans = 1/ans
+      console.log(ans)
+    
+}
+
+powBruteForce()
+function powOptimised() {
+
+    let x = Number(prompt("Eneter x number: "));
+    let n = Number(prompt("Eneter n number: "));
+
+
+    var myPow = function(x, n) { 
+      if(n==0) return 1.0;
+      return (n<0 ? 1/Pow(x,n) :Pow(x,n))
+
+     }
+
+     var Pow = function(x,n){ 
+
+      if(n==0) return 1;
+
+      let ans = Pow(x,Math.floor(n/2));
+
+      if(n%2==0) return ans*ans;
+      else return x*ans*ans;
+     }
+
+      console.log(myPow(x,n))
+
+
+}
+
+powOptimised()
+
+
+
+
+
