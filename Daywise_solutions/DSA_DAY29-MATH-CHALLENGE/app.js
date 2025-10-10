@@ -68,11 +68,8 @@ function countOfPrimesBruteForce() {
 
 
 function countOfPrimesOptimised() {
-
     let n = Number(prompt("Eneter a number: "));   
-
     let isPrime = new Array(n+1).fill(true)
-
     for(let i = 2;i<=Math.floor(Math.sqrt(n));i++){
         if(isPrime[i]===true){
             for(let j = i*i;j<=n;j+=i){
@@ -80,15 +77,36 @@ function countOfPrimesOptimised() {
             }
     }
 }
-
- 
 for(let i = 1;i<=n;i++){
     if(isPrime[i]===true && i>=1) process.stdout.write(i + " ")
 }
 
 }
 
-countOfPrimesOptimised()
+// countOfPrimesOptimised()
 
+//*—Q 81. 69.Sqrt(x) {Brute force & Optimise both}
+
+//* Brute Force O(n)
+
+function sqrtBruteForce() {
+    
+    let x = Number(prompt("Eneter a number: "));
+
+    function sqrt(n) {
+        if (n === 0 || n === 1) return n;
+        let i = 1;
+        while (i * i <= n) {
+            i++;
+        }
+        return i - 1;
+    }
+    console.log(sqrt(x));
+}
+// sqrtBruteForce()
+
+console.log("\n");
+
+//* Optimised O(log n)
 
 
