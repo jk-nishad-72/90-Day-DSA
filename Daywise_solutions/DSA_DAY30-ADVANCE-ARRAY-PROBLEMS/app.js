@@ -5,6 +5,8 @@
 
 let prompt = require('prompt-sync')();
 
+function MersgeSrtedArray() {
+    
 let m = parseInt(prompt("Enter the number of elements in first array: "));
 
 let nums1 = new Array(m)
@@ -48,4 +50,35 @@ var merge = function(nums1, m, nums2, n) {
 };
 
 console.log(merge(nums1, m, nums2, n));
+}
 
+// MersgeSrtedArray();
+
+
+//*—Q 84. 26.Remove Duplicate from Sorted Array
+
+
+function RemoveDuplicateFromSortedArray() {
+    
+    let size = parseInt(prompt("Enter the number of elements in array: "));
+
+    let nums = new Array(size)  
+    for (let i = 0; i < size; i++) {
+        nums[i] = parseInt(prompt(`Enter element ${i + 1}: `));
+    }
+    
+var removeDuplicates = function(nums) {
+    let j = 1;
+    for(let i = 0;i<nums.length-1;i++)
+    {
+        if(nums[i]!=nums[i+1]) {
+            nums[j] = nums[i+1]
+            j++
+        }
+    }
+    return [j , nums]
+};
+console.log(removeDuplicates(nums));
+}
+
+RemoveDuplicateFromSortedArray();
