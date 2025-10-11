@@ -1,0 +1,10 @@
+
+##DSA_DAY_30: Advance-Array-Problem➡️
+
+—Q 83. 88.Merge Two Sorted Array
+
+—Q 84. 26.Remove Duplicate from Sorted Array
+
+—Q 85. 1089.Duplicate Zeros 
+
+—Q 86. 283.Move Zeros

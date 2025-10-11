@@ -1,10 +1,12 @@
 
 ##DSA_DAY_29:  MATH-CHALENGE ✅➡️
 
--Q 79.Factor's of Number (Brute force & Optimise)
+-Q .Factor's of Number (Brute force & Optimise)
 
-—Q 80.Count of primes (Sieve of eratosthenes) 
+—Q .Count of primes (Sieve of eratosthenes) 
 
-—Q 81. 69.Sqrt(x) {Brute force & Optimise both}
+   **Two-leetcode-Problems 
+   
+—Q . 69.Sqrt(x) {Brute force & Optimise both}
 
-—Q 82. 50.Pow(x,n) 
+—Q . 50.Pow(x,n) { Brute force & Optimise both  }
