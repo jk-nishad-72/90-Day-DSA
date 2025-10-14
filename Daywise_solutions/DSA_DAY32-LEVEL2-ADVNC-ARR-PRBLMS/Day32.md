@@ -77,7 +77,7 @@ function maxSubArrayBrute(nums) {
 ```javascript
 var majorityElement = function(nums) {
   let ans = nums[0];
-  let count = 1;
+  let count = 0;
 
   for (let i = 1; i < nums.length; i++) {
     if (count == 0) {
