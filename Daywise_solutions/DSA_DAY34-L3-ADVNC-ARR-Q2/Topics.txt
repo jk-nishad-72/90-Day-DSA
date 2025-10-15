@@ -1,0 +1,10 @@
+
+DAY_34:-
+
+—Q 92.  11.  Container with most Water [area = length*breadth] 
+
+   a) brute force 
+
+   b) optimise  2 pointer 
+
+—Q 93.  15. 3Sum .  [HOmework]  ✅☑️

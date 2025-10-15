@@ -96,6 +96,26 @@ while(i<=k){
 };
 
 
-console.log(trap([0,1,0,2,1,0,1,3,2,1,2,1]));
+// console.log(trap([0,1,0,2,1,0,1,3,2,1,2,1]));
 
+
+
+function reverseArray(a) {
+    // Write your code here
+
+    let j = a.length-1;
+    let i = 0;
+    while(i<j){
+        let temp = a[i];
+        a[i] = a[j];
+        a[j] = temp;
+        i++
+        j--
+    }
+    
+    return a 
+
+}
+
+console.log(reverseArray([1,2,3]));
 
