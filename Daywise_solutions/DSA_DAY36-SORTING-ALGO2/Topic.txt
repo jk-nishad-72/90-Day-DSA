@@ -1,0 +1,6 @@
+
+##DSA_DAY_36 : Sorting Algorithm➡️
+
+*— Quick Sort 
+
+*— Cyclic Sort

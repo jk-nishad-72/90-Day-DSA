@@ -1,0 +1,6 @@
+
+##DSA_DAY_35 : Sorting Algorithm➡️
+
+—Q 93.  15. 3Sum(Brute force[O(n^3)] and Optimised[O(n*logn)] ) ☑️
+
+—Q 94.  Merge Sort Algorithm ☑️  
