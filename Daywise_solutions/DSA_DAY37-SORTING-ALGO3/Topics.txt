@@ -4,8 +4,8 @@
 
 *— Cyclic Sort  ☑️ [0 ot n] 
 
-—Q94. 268. Missing Number Optimise cyclic solution
+—Q94. 268. Missing Number Optimise cyclic solution ✅
 
-—Q95. 448. Find all the number disappeared in an array Using cyclic sort 
+—Q95. 448. Find all the number disappeared in an array Using cyclic sort ✅
 
-—Q96. 41.  Find first missing Number .
+—Q96. 41.  Find first missing Number .✅
