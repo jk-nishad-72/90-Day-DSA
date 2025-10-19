@@ -1,2 +1,12 @@
 
+##DSA_DAY_38 : Binary Sorting Algorithm  & Q .➡️
+
+—Q 97. 704. Binary Search✅✅
+
+—Q 98. 35. Search Insert Position ✅
+
+—Q 99. 34. Find First and Last Position of Element in Sorted Array ✅
+
+—Q 100. **3159. Find Occurrences of an Element in an Array [homework]**
+
 
