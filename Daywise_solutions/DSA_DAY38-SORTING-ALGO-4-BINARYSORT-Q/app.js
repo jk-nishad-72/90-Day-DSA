@@ -58,3 +58,33 @@ var searchRange = function(nums, target) {
   return [start,end]
     
 };
+
+
+//*—Q 100. **3159. Find Occurrences of an Element in an Array [homework]**
+
+
+
+let   nums = [1,3,1,7], queries = [1,3,2,4], x = 1
+
+
+var occurrencesOfElement = function(nums, queries, x) {
+   let occurence = []; 
+   let ans = [] ;
+
+    for(let i = 0;i<nums.length;i++){
+         if(x === nums[i]) occurence.push(i)
+    }
+
+     console.log(occurence);
+
+      for(let i = 0;i<queries.length;i++){
+          if(queries[i]>occurence.length) ans.push(-1) 
+          else ans.push(occurence[queries[i] -1]) 
+           
+      }
+
+    return ans 
+};
+
+
+console.log(occurrencesOfElement(nums,queries,x));
