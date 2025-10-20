@@ -1,0 +1,6 @@
+
+## DAY_39 : Binary Sorting Problems.➡️
+
+—Q. 101. **852. Peak Index in a Mountain Array ✅**
+
+—Q. 102. [**33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)  ✅**
