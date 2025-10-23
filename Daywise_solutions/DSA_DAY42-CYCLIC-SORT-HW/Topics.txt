@@ -1,0 +1,8 @@
+
+
+
+ ##DSA_DAY_42 : CYCLIC SORT Problems HW.➡️
+
+1. 645. Set Mismatch ✅
+2. 442. Find All Duplicates in an Array ✅
+3. 287. Find the Duplicate Number ✅

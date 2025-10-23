@@ -40,3 +40,26 @@ var findDuplicates = function(nums) {
     return ans
  
 };
+
+/**287. Find the Duplicate Number
+ * 
+ * 
+ * @param {number[]} nums
+ * @return {number}
+ */
+var findDuplicate = function(nums) {
+
+     let i = 0;
+     while(i<nums.length){
+        let correctIndex = nums[i] -1 ;
+         if(nums[i] != nums[correctIndex]){
+            let copy = nums[i] ;
+            nums[i] = nums[correctIndex];
+            nums[correctIndex] = copy;
+         } else i++
+     }
+     for(let i=0;i<nums.length;i++){
+         if(nums[i] != i+1) return nums[i]
+     }
+    
+};
