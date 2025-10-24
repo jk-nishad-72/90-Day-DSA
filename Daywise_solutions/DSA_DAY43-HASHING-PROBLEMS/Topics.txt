@@ -1,1 +1,8 @@
 
+##DSA_DAY_43 : Advance Hashing Problems.➡️ 24/10/25
+
+—Q 106. **349. Intersection of Two Arrays ✅**
+
+—Q 107. **560. Subarray Sum Equals K ✅**
+
+—Q 108. Longest Sub - Array with sum k gfg  ✅
