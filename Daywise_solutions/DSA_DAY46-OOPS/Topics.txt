@@ -1,0 +1,16 @@
+
+##DSA_DAY_46 : Class & Objects in OOPS ➡️ 27/10/25
+
+✅ 1. What is OOPs?
+✅ 2. Why Do We Need OOPs?
+—class and Objects 
+
+—constructor 
+
+—prototype 
+
+—this key word
+
+—design problems 
+
+—Q. 112. , Q.113. , Q.114. , Q 115. 
