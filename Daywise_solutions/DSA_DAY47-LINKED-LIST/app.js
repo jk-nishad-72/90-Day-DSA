@@ -46,6 +46,27 @@ class linkedList{
       newNode.next = this.head;
       this.head = newNode;
   }
+//* 1.b) Insert At last position 
+
+InsertAtLast(val){
+
+    this.size++;
+    const newNode = new Node(val)
+    if(this.head===null){
+        this.head = newNode
+        return 
+    }
+    let temp = this.head
+    while(temp.next != null){
+        temp = temp.next;
+    } 
+
+    temp.next = newNode
+
+
+}
+
+
 
   //* 2.  Deletion Opertion 
 
@@ -65,6 +86,34 @@ class linkedList{
 
   }
 
+  //* 2.b) delet at last 
+  
+  deletAtLast(){
+
+      if(this.head == null){
+        console.log('empty ll');
+        return
+        
+      }
+
+      this.size--;
+      if(this.head.next === null){
+        this.head = null
+        return
+      }
+
+      let temp = this.head;
+
+      while(temp.next.next!= null){
+        temp = temp.next;
+      }
+
+    //   temp.next = null
+      temp.next = temp.next.next
+
+  }
+
+
 //* Travarsal Operation of linked list 
 
 
@@ -73,13 +122,16 @@ class linkedList{
         console.log('Empty Linked list ');
          return
      }
-   let temp = this.head;
-    console.log(this.size);
 
+   let temp = this.head;
+
+ console.log(this.size);
    while(temp!=null){
     process.stdout.write(' '+temp.val + " -->" ); 
     temp = temp.next;
    }
+   console.log();
+   
   } 
 
 
@@ -101,6 +153,13 @@ ll1.InsertAtFirst(40)
 
 ll1.printLL()
 ll1.deletAtFirst() 
+ll1.printLL()
+ll1.InsertAtLast(100)
+ll1.InsertAtLast(101)
+ll1.InsertAtLast(102) 
+ll1.printLL() 
+
+ll1.deletAtLast()
 ll1.printLL()
 
 
