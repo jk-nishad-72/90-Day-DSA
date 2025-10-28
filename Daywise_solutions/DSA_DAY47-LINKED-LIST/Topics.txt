@@ -18,3 +18,8 @@
   b).  Insertion  → b.1) insert at first , b.2) insert at last 
 
   c).  deletion  → c.1) delete at first, c.2) delete at last
+
+  Homework -> 
+  b.3) insert at position 
+  c.3) delete at position 
+  --Q. 116. 707 Design Linked list 
