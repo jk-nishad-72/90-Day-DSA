@@ -49,7 +49,21 @@ class linkedList{
 
   //* 2.  Deletion Opertion 
 
-  //* 2
+  //* 2.a) delet at first 
+
+
+  deletAtFirst(){
+
+      this.size--
+
+     if(this.head === null){
+        console.log('linked list is empty : ');
+        return
+     }
+
+     this.head = this.head.next
+
+  }
 
 //* Travarsal Operation of linked list 
 
@@ -60,9 +74,10 @@ class linkedList{
          return
      }
    let temp = this.head;
+    console.log(this.size);
 
    while(temp!=null){
-    process.stdout.write(' '+temp.val + " -->"); 
+    process.stdout.write(' '+temp.val + " -->" ); 
     temp = temp.next;
    }
   } 
@@ -84,6 +99,8 @@ ll1.InsertAtFirst(30)
 ll1.InsertAtFirst(40)
 
 
+ll1.printLL()
+ll1.deletAtFirst() 
 ll1.printLL()
 
 
