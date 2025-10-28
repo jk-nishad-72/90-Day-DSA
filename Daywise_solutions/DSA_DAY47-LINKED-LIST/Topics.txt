@@ -1,0 +1,20 @@
+
+##DSA_DAY_47 :Linked list  ➡️ 28/10/25
+
+—Introduction of Linked list  
+
+— what is  LL
+
+—Types of LL 
+
+—Real world Example 
+
+—Creation of LL Using class and constructor & objects 
+
+—Operation of LL →
+
+  a).  traversal 
+
+  b).  Insertion  → b.1) insert at first , b.2) insert at last 
+
+  c).  deletion  → c.1) delete at first, c.2) delete at last
