@@ -32,13 +32,12 @@ class LinkedList{
      }
 
      // * insert At specific position 
-     
+
 
      insertAtPosition(index,val){
 
          this.size++;
         const newNode = new Node(val)
-
         if(this.head === null){
             console.log('empty linked list ')
             this.head = newNode
@@ -49,8 +48,6 @@ class LinkedList{
             console.log('Invalid Posistion ')
             return
         } 
-
-        
 
             let i = 1;
             let temp = this.head;
@@ -63,6 +60,31 @@ class LinkedList{
         
 
      }
+
+     //* delet at specific position 
+
+      deleteAtIndex(index){
+
+         if(index < 0 || index >= this.size) return -1;
+         if(index === 0){
+
+            this.head = this.head.next
+
+         } else{
+            
+         let i =1 ,temp = this.head;
+         while(i<index){
+            temp = temp.next;
+            i++
+         }
+         temp.next = temp.next.next
+        
+
+         }
+
+          this.size--
+      }
+
 
      printll(){
          if(this.head === null){
@@ -93,8 +115,9 @@ ll1.insertAtfirst(30)
 ll1.insertAtfirst(40)
 
 ll1.printll();
-ll1.insertAtPosition(4,400)
-ll1.insertAtPosition(2,500)
-ll1.printll()
+// ll1.insertAtPosition(4,400)
+// ll1.insertAtPosition(2,500)
 // ll1.printll()
+ll1.deleteAtIndex(1)
+ll1.printll()
 
