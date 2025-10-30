@@ -1,5 +1,5 @@
  ##DSA_DAY_48 :Linked list Homework ➡️ 29/10/25
   Homework -> 
-  b.3) insert at position 
-  c.3) delete at position 
-  --Q. 116. 707 Design Linked list 
+  * insert at position ✅
+  * delete at position  ✅
+  --Q. 116. 707 Design Linked list  ✅
