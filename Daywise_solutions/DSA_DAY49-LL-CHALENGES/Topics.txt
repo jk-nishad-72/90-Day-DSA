@@ -2,9 +2,9 @@
 ##DSA_DAY_49 :Linked list challenges➡️ 30/10/25
 
 * insert at position
-* delete at position 
+* delete at position  
 --Q. 116. 707 Design Linked list ✅ by bhaiya 
 
 —Q. 117. 876. Middle of the linked list ✅
 
-—Q. 118. 21. Merge two Sorted list ✅
+—Q. 118. 21. Merge two Sorted list ✅ 
