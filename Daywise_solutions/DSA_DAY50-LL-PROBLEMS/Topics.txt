@@ -1,2 +1,10 @@
+##DSA_DAY_50 :Linked list Problems➡️ 30/10/25
 
+**✅ Q117. 21. Merge Two Sorted Lists (Recursion)** 
+
+**✅ Q118. Reverse the LinkedList (Iterative + Recursive)**
+
+**✅ Q119. 141. Linked List Cycle (Slow & Fast Pointer)**
+
+**✅ Q120. 83. Remove Duplicates from Sorted List (Iterative)** 
 
