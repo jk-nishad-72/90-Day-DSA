@@ -1,6 +1,6 @@
 
-## DAY_501:HomeWorkLinked list Problems➡️ 1/11/25
+##DSA_DAY_501:HomeWorkLinked list Problems➡️ 1/11/25
 
-**—Q 123. 142. Linked List Cycle II**
+**—Q 123. 142. Linked List Cycle II** ✅
 
-**—Q 124. 82. Remove Duplicates from Sorted List II**
+**—Q 124. 82. Remove Duplicates from Sorted List II**  ✅
