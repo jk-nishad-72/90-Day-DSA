@@ -31,3 +31,41 @@ var detectCycle = function(head) {
     }
 return null 
 };
+
+
+//**—Q 124. 82. Remove Duplicates from Sorted List II**  ✅
+
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+var deleteDuplicates = function(head) {
+  if (!head || !head.next) return head;
+  let dummy = new ListNode(-1);
+  dummy.next = head;
+  let prev = dummy; // pointer to node before current sequence
+  let cur = head;
+  while (cur) {
+    // Move cur until the end of duplicates
+    while (cur.next && cur.val === cur.next.val) {
+      cur = cur.next;
+    }
+    // If prev.next is still cur, no duplicates were found for this value
+    if (prev.next === cur) {
+      prev = prev.next;
+    } else {
+      // Skip all duplicates
+      prev.next = cur.next;
+    }
+    cur = cur.next; // move forward
+  }
+
+  return dummy.next;
+};
