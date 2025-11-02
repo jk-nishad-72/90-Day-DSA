@@ -1,1 +1,6 @@
 
+##DSA_DAY_52: Morw LL Problems  ➡️ 1/11/25
+
+—Q 125. 25. Reverse  Nodes in k-Group ✅
+
+—Q 126.  2. Add two Numbers.  ✅
