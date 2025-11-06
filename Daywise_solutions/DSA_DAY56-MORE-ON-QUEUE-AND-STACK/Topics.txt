@@ -1,0 +1,8 @@
+
+##DSA_DAY_56:MoreOn Queue And Stack  ➡️ 6/11/25
+
+—Q 131. **Next Greater Element in Array ✅**
+
+[GeeksforGeeks Next Greater Element in Array - GeeksforGeeks](https://www.geeksforgeeks.org/problems/next-larger-element-1587115620/1)
+
+—Q 132. **496. Next Greater Element I . ✅** 
