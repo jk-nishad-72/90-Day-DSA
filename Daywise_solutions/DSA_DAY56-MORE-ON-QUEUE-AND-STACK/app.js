@@ -1,4 +1,6 @@
-/**
+/*
+* --Que.. Next Greater Element
+ 
  * @param {number[]} arr
  * @returns {number[]}
  */
@@ -34,7 +36,7 @@ class Solution {
 
 
 
-
+//* 496. Next Greater Element I
 
 
 let arr1 = [4,1,2]
