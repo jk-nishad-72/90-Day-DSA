@@ -1,0 +1,6 @@
+//* ## DAY_57:Tastk PRBLM on Queue And Stack  ➡️ 7/11/25
+—Q 133. **739. Daily Temperatures** 
+
+ a) Brute force  Using to Pointer O(n^2) ✅
+
+ b) Optimal Using Stack   O(n) ✅
