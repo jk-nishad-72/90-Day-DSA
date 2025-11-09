@@ -1,5 +1,6 @@
-
-/**
+  
+/** —Q 134. Stock Span Problem gfg 
+ * 
  * @param {number[]} arr
  * @returns {number[]}
  */
