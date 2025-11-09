@@ -1,0 +1,10 @@
+
+## DAY_59:More Prblms On Stack  ➡️ 9/11/25
+
+—Q 134. Stock Span Problem gfg 
+
+https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1 ✅
+
+—Q 135. 84. Largest Rectangle in Histogram ✅
+
+—Q 136. 85. Maximal Rectangle. ✅
