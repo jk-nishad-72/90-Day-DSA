@@ -1,0 +1,18 @@
+
+##DSA_DAY_61:linked list ➡️ 11/11/25
+
+**—Q 203. Remove Linked List Elements ✅**
+
+And Revising this topics→ ..
+
+— Q 29. Array left rotation by K elements
+Three method to solve  it :-
+a) Bruite force 
+b) with extra space logic ans[i]= ((i+k)%length)
+c) 2(i,j) pointer algoritham  
+
+— Q HOMEWORK:-. Array right rotation by K elements
+
+— Q 30. Linear Search an array - If element found print the index else -1 
+
+— Q 31. Binary Search  💚✔️✔️
