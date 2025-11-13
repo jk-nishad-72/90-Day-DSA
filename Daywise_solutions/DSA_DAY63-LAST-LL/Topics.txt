@@ -1,0 +1,6 @@
+
+## DAY_63:linked list ➡️ 13/11/25
+
+**—Q. 160. Intersection of Two Linked Lists .  ✅**
+
+**-Q. Frindly Pairs : https://prepinsta.com/java-program/friendly-pair-or-notamicable-or-not-using-java/✅
