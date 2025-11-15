@@ -1,3 +1,30 @@
+/**
+ * @param {number[]} nums
+ * @return {number[][]}
+ */
 
-console.log('hello ')
+ var solve = function(nums , ans , cur , i ){
+
+      if(i == nums.length){
+        ans.push([...cur])
+        return 
+      }
+      //Pick
+    cur.push(nums[i])
+    solve(nums, ans, cur,i+1)
+    cur.pop();
+
+    //nOt pick
+    solve(nums, ans , cur, i+1)
+
+ }
+var subsets = function(nums) {
+    let ans = []
+    let cur = []
+
+    solve(nums , ans , cur , 0)
+    return ans;
+    
+};
+
 
