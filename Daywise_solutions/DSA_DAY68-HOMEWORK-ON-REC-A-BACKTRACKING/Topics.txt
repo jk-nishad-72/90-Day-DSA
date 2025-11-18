@@ -1,1 +1,8 @@
 
+##DSA_DAY_68:Advance Recursion and Backtracking  ➡️ 18/11/25
+
+**—Q. 141 47. Permutations II ✅**
+
+—Q 142. Power Set ✅✅
+
+https://www.geeksforgeeks.org/problems/power-set4302/1

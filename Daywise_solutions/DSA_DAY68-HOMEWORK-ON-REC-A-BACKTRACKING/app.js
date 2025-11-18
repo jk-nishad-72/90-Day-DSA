@@ -40,3 +40,36 @@ var permuteUnique = function(nums) {
 
 
 console.log(permuteUnique([1,1,2]));
+
+
+
+
+
+// User function Template for javascript
+
+/*
+ *Power Set ✅✅
+ * @param {string} s
+ * @return {string[]}
+ */
+class Solution {
+    AllPossibleStrings(s) {
+        let ans = [];
+        this.solve(s, ans, "", 0);
+        ans.sort();  // sort strings lexicographically
+        return ans;
+    }
+
+    solve(s, ans, cur, i) {
+        if (i === s.length) {
+            if (cur.length !== 0) ans.push(cur);
+            return;
+        }
+
+        // include s[i]
+        this.solve(s, ans, cur + s[i], i + 1);
+
+        // exclude s[i]
+        this.solve(s, ans, cur, i + 1);
+    }
+}
