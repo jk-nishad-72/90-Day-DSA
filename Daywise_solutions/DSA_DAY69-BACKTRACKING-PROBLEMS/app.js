@@ -1,6 +1,36 @@
 
 /*
- *39. Combination Sum
+ *90. Subsets II optimise ✅ 
+ * @param {number[]} nums
+ * @return {number[][]}
+ */
+ var solve = function(nums, ans, cur , i){
+// Base Case 
+    if(i == nums.length){
+         ans.push([...cur])
+         return
+    }
+ //Pick 
+    cur.push(nums[i])
+    solve(nums,ans , cur ,i+1)
+    cur.pop()
+ //Ignoring duplicates value 
+ while( i+1 < nums.length && nums[i] == nums[i+1]){i++}
+ // Not pick 
+    solve(nums,ans , cur , i+1)
+ }
+var subsetsWithDup = function(nums) {
+  nums.sort((a,b) => a-b)
+  let ans = []
+  let cur = []
+  solve(nums , ans , cur , 0)
+   return ans
+};
+
+
+
+/*
+ *39. Combination Sum ✅
  * @param {number[]} candidates
  * @param {number} target
  * @return {number[][]}
@@ -29,7 +59,8 @@ var combinationSum = function(candidates, target) {
 
 
 
-/**17. Letter Combinations of a Phone Number
+/*
+ *17. Letter Combinations of a Phone Number ✅ 
  * @param {string} digits
  * @return {string[]}
  */
