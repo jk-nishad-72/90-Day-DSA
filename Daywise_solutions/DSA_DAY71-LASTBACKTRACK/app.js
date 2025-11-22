@@ -1,16 +1,13 @@
-
 /*
- *51. N-Queens ✅  
+ *51. N-Queens ✅
  * @param {number} n
  * @return {string[][]}
  */
 var solve = function (board, n, ans, row) {
   if (row == n) {
     let arr1 = new Array();
-
     for (let i = 0; i < n; i++) {
       let cur = "";
-
       for (let j = 0; j < n; j++) {
         if (board[i][j] == 1) cur += "Q";
         else cur += ".";
@@ -63,3 +60,8 @@ var solveNQueens = function (n) {
   solve(chess, n, ans, 0);
   return ans;
 };
+
+ let n = 5  
+ console.log( solveNQueens(n));
+ 
+ // 
