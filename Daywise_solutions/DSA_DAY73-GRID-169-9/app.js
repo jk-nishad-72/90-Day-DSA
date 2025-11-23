@@ -1,30 +1,32 @@
 
-/**
+/*
+ *  9. Palindrome Number ✅ 
  * @param {number} x
  * @return {boolean}
  */
-// var isPalindrome = function(x) {
-//     let copy = x
-//     let temp = 0;
-//     while(x > 0){    
-//          let rem = x % 10 ;
+var isPalindrome = function(x) {
+    let copy = x
+    let temp = 0;
+    while(x > 0){    
+         let rem = x % 10 ;
 
-//          temp = (temp * 10 )+rem;
+         temp = (temp * 10 )+rem;
 
-//          x = parseInt(x / 10)
-//     }
-//  if(copy === temp) return true
-//  else return false
+         x = parseInt(x / 10)
+    }
+ if(copy === temp) return true
+ else return false
  
-// };
+};
 
-// console.log(isPalindrome(121));
+console.log(isPalindrome(121));
 
-/**
+/*
+ * 125. Valid Palindrome ☑️
  * @param {string} s
  * @return {boolean}
  */
-var isPalindrome = function(s) {
+var isPalindromeString = function(s) {
     
     let clr = s.replace(/[^a-zA-Z0-9]/gi, "").toLowerCase()
 
@@ -44,7 +46,7 @@ var isPalindrome = function(s) {
  
 };
 
-console.log(isPalindrome("race a car"));
+console.log(isPalindromeString("race a car"));
 
 
 
