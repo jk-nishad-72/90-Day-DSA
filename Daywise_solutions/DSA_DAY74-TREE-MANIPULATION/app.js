@@ -1,34 +1,34 @@
- let prompt = require('prompt-sync')()
+let prompt = require('prompt-sync')()
 
-class Node{
+class Node {
 
-     constructor(val) {
-          this.val = val;
-          this.right = this.left = null
-        
-     }
+    constructor(val) {
+        this.val = val;
+        this.right = this.left = null
+
+    }
 }
 
 class Tree {
 
-     buildTree(){
+    buildTree() {
 
-         let data  = parseInt(prompt('Enter Value : '))
+        let data = parseInt(prompt('Enter Value : '))
 
-         if(data == -1 ) return null
-         
-          let root = new Node(data);
+        if (data == -1) return null
 
-          console.log('Enter left data of '+ root.val);
-          
-          root.left = this.buildTree();
+        let root = new Node(data);
 
-          console.log('Enter right data of '+ root.val);
+        console.log('Enter left data of ' + root.val);
 
-           root.right = this.buildTree();
-           
-           return root;
-     }
+        root.left = this.buildTree();
+
+        console.log('Enter right data of ' + root.val);
+
+        root.right = this.buildTree();
+
+        return root;
+    }
 }
 
 
