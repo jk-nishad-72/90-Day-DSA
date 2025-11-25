@@ -58,6 +58,16 @@ class Tree {
          this.inOrder(root.right) // right 
      }
 
+     maxDepth(root){
+
+         if(root == null) return 0
+          
+         let left = this.maxDepth(root.left)
+         let right = this.maxDepth(root.right)
+         return Math.max(left,right) +1 ;
+
+     }
+
 
 
 }
@@ -70,6 +80,8 @@ console.log(root);
 console.log(t1.preOrder(root));
 console.log(t1.postOrder(root));
 console.log(t1.inOrder(root));
+console.log(t1.maxDepth(root));
+
 
 
 
