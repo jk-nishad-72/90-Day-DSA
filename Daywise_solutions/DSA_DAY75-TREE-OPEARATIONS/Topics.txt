@@ -1,1 +1,16 @@
 
+##DSA_DAY_75: Tree Operations➡️ 25/11/25
+
+—DFS - Algorithm →
+
+-Tree Traversal  
+
+-PreOrder 
+
+-PostOrder
+
+-InOrder 
+
+—Maximum depth of BT
+
+—101. Symmetric tree
