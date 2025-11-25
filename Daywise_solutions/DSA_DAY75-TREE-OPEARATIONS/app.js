@@ -42,6 +42,22 @@ class Tree {
          this.preOrder(root.right) // right 
      }
 
+     postOrder(root){
+
+         if(root == null ) return
+         this.postOrder(root.left) // left 
+         this.postOrder(root.right) // right 
+         process.stdout.write(' '+root.val) // Data
+
+     }
+     inOrder(root){
+
+         if(root == null ) return
+         this.inOrder(root.left) // left 
+         process.stdout.write(' '+root.val) // Data
+         this.inOrder(root.right) // right 
+     }
+
 
 
 }
@@ -52,6 +68,9 @@ const root = t1.BuildTree()
 console.log(root);
 
 console.log(t1.preOrder(root));
+console.log(t1.postOrder(root));
+console.log(t1.inOrder(root));
+
 
 
 
