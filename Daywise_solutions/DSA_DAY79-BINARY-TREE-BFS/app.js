@@ -65,3 +65,30 @@ console.log(hasPathSum([1,2,3], 5));
 
 
 
+/*
+ *101. Symmetric Tree
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**101. Symmetric Tree
+ * @param {TreeNode} root
+ * @return {boolean}
+ */
+var solve = function(l , r){
+ if(l == null && r == null ) return true 
+ if((l == null && r != null ) || (l != null && r == null)) return false
+ if(l.val == r.val){
+     let left = solve(l.left , r.right)
+     let right = solve(l.right , r.left)
+     return left && right
+ }
+ return false    
+}
+var isSymmetric = function(root) {
+         if(root == null ) return true;
+         return(solve(root.left , root.right))
+};
