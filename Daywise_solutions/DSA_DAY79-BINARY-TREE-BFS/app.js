@@ -92,3 +92,37 @@ var isSymmetric = function(root) {
          if(root == null ) return true;
          return(solve(root.left , root.right))
 };
+
+/*
+ *102. Binary Tree Level Order Traversal
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/** *102. Binary Tree Level Order Traversal
+ * @param {TreeNode} root
+ * @return {number[][]}
+ */
+var levelOrder = function(root) {
+    let ans = [];
+    if(root == null ) return ans
+    let q = [];
+    q.push(root)
+    while(q.length != 0 ){
+         let size = q.length;
+         let cur = [];
+         for(let i = 0;i<size;i++){
+             let node = q.shift();             
+             cur.push(node.val)
+             if(node.left != null) q.push(node.left)
+             if(node.right != null) q.push(node.right)
+         }
+        ans.push(cur)
+    }
+   return ans
+};
+
+console.log(levelOrder( [3,9,20,null,null,15,7]));
