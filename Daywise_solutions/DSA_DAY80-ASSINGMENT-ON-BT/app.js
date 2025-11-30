@@ -1,3 +1,33 @@
+/*
+ *112. Path Sum 2ND APPROACH
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @param {number} targetSum
+ * @return {boolean}
+ */
+
+var solve = function(r,t, s){
+     if(r == null) return false 
+     s = s + r.val; 
+     if(r.left == null && r.right == null && s == t) return true
+     let left = solve(r.left , t , s )
+     let right = solve(r.right , t , s)
+     s = s - r.val
+     return left || right
+    
+ }
+var hasPathSum = function(root, targetSum) {
+    
+    let sum = 0;
+   return solve(root, targetSum , sum )
+};
 
 /**
  * Definition for a binary tree node.
