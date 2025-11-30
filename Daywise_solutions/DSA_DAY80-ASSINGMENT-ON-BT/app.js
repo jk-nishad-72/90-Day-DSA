@@ -62,3 +62,38 @@ var levelOrderBottom = function(root){
    return ans
 };
 
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @param {number} targetSum
+ * @return {number[][]}
+ */
+
+var solve = function(r , t , s , cur , ans ){
+     if(r == null) return false
+      s = s + r.val 
+      cur.push(r.val)
+      if(r.left == null && r.right == null && s == t){
+         ans.push([...cur])
+      }
+      let left = solve(r.left , t , s , cur , ans)
+      let right = solve(r.right , t , s , cur , ans)
+      s = s - r.val
+      cur.pop()
+      return left || right 
+}
+var pathSum = function(root, targetSum) {
+    let sum = 0;
+    let ans = [];
+    let cur = [];
+ solve(root , targetSum , sum , cur , ans )
+ return  ans
+
+};
