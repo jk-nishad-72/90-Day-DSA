@@ -1,0 +1,10 @@
+##DSA_DAY_82: BTREE ➡️ 02/12/25
+— Q.Binary Tree left Side View gfg ✅
+ https: // www.geeksforgeeks.org / problems / left - view - of - binary - tree / 1 
+ 2 approaches → 
+ a) DFS
+ b) BFS
+— Q.199.Binary Tree Right Side View ✅ leet 
+2 approaches → 
+a) DFS
+b) BFS
