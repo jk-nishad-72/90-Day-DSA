@@ -14,3 +14,16 @@ var percentageLetter = function(s, letter) {
     let ans =  Math.floor((count/total)*100)
     return ans
 };
+
+
+/*
+ *2124. Check if All A's Appears Before All B's ✅
+ * @param {string} s
+ * @return {boolean}
+ */
+var checkString = function(s){
+    
+    if(s.includes('ba')) return false
+    else return true  
+};
+
