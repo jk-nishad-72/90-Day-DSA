@@ -1,0 +1,12 @@
+
+##DSA_DAY_85:BINARY SEARCH TREE(BST)➡️ 05/12/25
+
+→Introduction of Binary Search Tree ( BST )
+
+→ Use Case 
+
+→ working 
+
+  —Insertion :
+
+**—Q. 701. Insert into a Binary Search Tree ✅**
