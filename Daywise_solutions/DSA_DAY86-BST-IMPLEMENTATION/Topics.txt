@@ -5,4 +5,4 @@
 
 —Q. **700. Search in a Binary Search Tree ✅**
 
-—Q. **98. Validate Binary Search Tree ✅**
+—Q. **98. Validate Binary Search Tree ✅** 
