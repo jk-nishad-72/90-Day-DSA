@@ -58,3 +58,29 @@ BST1.root.left.right = new TreeNode(3);
 
 const result = BST1.searchBST(BST1.root, 2);
 console.log(result); // Should print the node with value 2
+
+
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**98. Validate Binary Search Tree
+ * @param {TreeNode} root
+ * @return {boolean}
+ */
+var solve = function(root , max , min){
+     if(root  == null ) return true
+     if((max != null &&  root.val >= max ) || (min != null && min >= root.val ) ) return false
+    let left = solve(root.left , root.val , min)
+    let right = solve(root.right, max , root.val) 
+
+    return left && right
+        
+}
+var isValidBST = function(root) {
+    return solve(root, null , null)
+};
