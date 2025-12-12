@@ -27,3 +27,34 @@ var pathSum = function(root, targetSum) {
     countPaths(root);
     return total;
 };
+
+
+/**
+ * @param {string} password
+ * @return {boolean}
+ */
+var strongPasswordCheckerII = function(password) {
+    
+    if(password.length < 8 ) return false;
+    let haslowerCase = false;
+    let hasUpperCase = false;
+    let hasdigit =  false;
+    let Special = '!@#$%^&*()-+';
+    let hasSpecial = false;
+
+    for(let i = 0 ;i<password.length ; i++){
+
+           let ch = password[i]
+
+           if(i>0 && ch == password[i-1]) {return false;}
+
+           if(ch >= 'a' && ch <= 'z') haslowerCase = true
+          else if(ch >= 'A' && ch <= 'Z') hasUpperCase = true
+          else if(ch >= '0' && ch <= '9') hasdigit = true
+          else if(Special.includes(ch)) hasSpecial = true
+   
+    }
+
+    return haslowerCase && hasUpperCase && hasdigit && hasSpecial
+};
+
