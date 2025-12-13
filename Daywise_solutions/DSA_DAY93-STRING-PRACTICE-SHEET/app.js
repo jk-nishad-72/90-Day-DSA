@@ -40,4 +40,24 @@ var makeFrequency = function () {
 
 }
 
-makeFrequency();
+// makeFrequency();
+
+
+var greatestEnglishLetter = function () {
+  let letters = 'Z Y X W V U T S R Q P O N M L K J I H G F E D C B A'
+  let s  = prompt("Enter the string : ");
+
+  for (let i = 0; i < letters.length; i++) {
+     let ch = letters[i];
+        if (s.includes(ch) && s.includes(ch.toLowerCase())) {  
+            console.log(ch);
+            return;
+         }
+    }
+  
+//   console.log(s);
+    console.log("");
+  
+}
+
+greatestEnglishLetter();
