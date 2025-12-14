@@ -35,3 +35,35 @@ return s
 };
 
 console.log(digitSum(s,k));
+
+
+/**2068. Check Whether Two Strings are Almost Equivalent
+ * @param {string} word1
+ * @param {string} word2
+ * @return {boolean}
+ */
+var checkAlmostEquivalent = function(s, t) {
+    let arr = new Array(123).fill(0);
+    let arr2 = new Array(123).fill(0);
+    for (let i = 0; i < s.length; i++) {
+        let ascii = s.charCodeAt(i);
+        arr[ascii] += 1;
+    }
+    for (let i = 0; i < t.length; i++) {
+        let ascii = t.charCodeAt(i);
+        arr2[ascii] += 1;
+    }
+    if (s.length != t.length) { 
+        return false
+    }else {
+        for (let i = 0; i < s.length; i++) {
+            let ascii1 = s.charCodeAt(i);
+            let ascii2 = t.charCodeAt(i);
+            if(arr[ascii1] - arr2[ascii1] > 3 || arr2[ascii2] - arr[ascii2] > 3 ){
+                return false
+                   }
+              }
+    return true
+    }
+};
+
