@@ -14,3 +14,23 @@ var reversePrefix = function(word, ch) {
 };
 
 console.log(reversePrefix('abcdefd' ,'d'));
+
+
+var areNumbersAscending = function(s) {
+let res = s.split(' ')
+let ans = []
+ for(let i = 0; i < res.length; i++){
+     let ch = Number(res[i]);
+     if(!isNaN(ch)){ 
+     ans.push( ch )
+     }
+ }
+ for(let i = 0; i < ans.length; i++){   
+        if(ans[i] >= ans[i+1] ){
+            return false
+        }       
+ }
+return true
+};
+
+

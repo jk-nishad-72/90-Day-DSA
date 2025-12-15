@@ -1,9 +1,14 @@
 
-let s = 'JavaScript';
+let s = 'a puppy has 2 eyes 4 legs';
+ // This will not change the string since strings are immutable in JavaScript
 
-s[0] = 'Y';  // This will not change the string since strings are immutable in JavaScript
-console.log(s);
 
-console.log(s.split('').reverse().join(''));  // Output: 'tpircSavaJ'
+ 
 
-console.log(s.replaceAll('a','o'));  // Output: 'Script'
+ console.log(ans);
+ 
+
+
+// console.log(s.split('').reverse().join(''));  // Output: 'tpircSavaJ'
+
+// console.log(s.replaceAll('a','o'));  // Output: 'Script'
