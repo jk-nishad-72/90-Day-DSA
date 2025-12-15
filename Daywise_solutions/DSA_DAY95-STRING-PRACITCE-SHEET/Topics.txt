@@ -1,0 +1,6 @@
+
+##DSA_DAY_95 STRING PRACTICE-SHEET ➡️ 15/12/25
+
+**—>Q. 2000. Reverse Prefix of Word ✅**
+
+—>Q. **2042. Check if Numbers Are Ascending in a Sentence ✅**
