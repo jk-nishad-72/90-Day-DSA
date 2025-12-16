@@ -1,9 +1,8 @@
-
 class Solution {
-   
-      replaceElementswithRank(N ,arr) {
-
-          let sortedArr = [...arr].sort((a,b) => a - b);
+    // Function to replace each element of the array with its rank.
+    replaceWithRank(N, arr) {
+        // your code here
+         let sortedArr = [...arr].sort((a,b) => a - b);
           let map = new Map();
 
           for(let i = 0;i< sortedArr.length ;i++){
@@ -11,8 +10,10 @@ class Solution {
               if(map.has(sortedArr[i]))
               {
                   map.set(sortedArr[i], map.get(sortedArr[i]));
+              }else if(i==0){
+                map.set(sortedArr[i], i+ 1);
               }else{
-                map.set(sortedArr[i], i + 1);
+                  map.set(sortedArr[i], map.get(sortedArr[i-1]) + 1);
               }
           }
 
@@ -21,13 +22,14 @@ class Solution {
               arr[i] = map.get(arr[i])
           }
           
-           console.log(arr);
-           
+          console.log(arr);
+          
            return arr;
-      }
-
+    }
 }
 
 
 let obj = new Solution()
-obj.replaceElementswithRank(6,[20, 15, 26, 2, 98, 6])
+obj.replaceWithRank(6,[20, 15, 26, 2, 98, 6])
+
+
