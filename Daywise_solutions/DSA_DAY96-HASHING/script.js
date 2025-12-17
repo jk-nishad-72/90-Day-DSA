@@ -16,14 +16,14 @@ console.log(pangram());
 
 
 
-let set = new Set();
+let set = new Set(['A', 'B', 'C']);
 
 set.add(1);
 set.add(2);
 set.add(2);     
 set.add('jaykishan')
 
-console.log(set);
+console.log(set.has('A'));
 
 
 var numJewelsInStones = function(jewels, stones) {
@@ -68,6 +68,9 @@ var isHappy = function(n) {
 };
 
 console.log(isHappy(2)); 
+
+
+
 
 
 
