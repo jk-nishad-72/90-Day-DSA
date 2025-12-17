@@ -69,4 +69,22 @@ var findTheDifference = function(s, t) {
 
 };
 
-console.log(findTheDifference('abcd','abcde'));
+// console.log(findTheDifference('abcd','abcde'));
+
+
+/**575. Distribute Candies
+ * @param {number[]} candyType
+ * @return {number}
+ */
+var distributeCandies = function(candyType) {
+    
+    let set = new Set(candyType);
+    let m = set.size
+    let n = Math.floor(candyType.length / 2)
+    if(m === n ) return m
+    else if( m < n ) return m 
+    else return n
+};
+
+
+console.log(distributeCandies([1,1,2,2,3,3]));
