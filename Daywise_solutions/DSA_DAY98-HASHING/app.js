@@ -16,4 +16,30 @@ var kthDistinct = function(arr, k) {
 };
 
 
-console.log(kthDistinct(["a","b","a"], k = 3));
+// console.log(kthDistinct(["a","b","a"], k = 3));
+/**819. Most Common Word
+ * @param {string} paragraph
+ * @param {string[]} banned
+ * @return {string}
+ */
+var mostCommonWord = function(paragraph, banned) {
+
+  let pr = paragraph.toLocaleLowerCase().match(/[a-z]+/g)
+  let map = new Map();
+    for(let word of pr){  
+        map.set(word, (map.get(word) || 0 ) + 1 )
+      }
+ for(let i = 0;i<banned.length;i++){
+      map.delete(banned[i])
+ }      
+        let max = 0;
+        let ans = '';
+        for(let [key , values] of map){
+            if(values > max){   
+                max = values;
+                ans = key;
+            }   
+        }
+        return ans
+};
+console.log(mostCommonWord("a b.b", []  ));
