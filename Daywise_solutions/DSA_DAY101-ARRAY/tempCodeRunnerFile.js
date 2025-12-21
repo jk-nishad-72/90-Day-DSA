@@ -35,20 +35,3 @@ var findMissingAndRepeatedValues = function(grid) {
 
     // check last number
     if (arr[arr.length - 1] !== n * n) {
-        missing = n * n;
-    }
-
-    return [repeated, missing];
-};
-
-// console.log(findMissingAndRepeatedValues([[1,3],[2,2]]));
-
-
-console.log(findMissingAndRepeatedValues([[9,1,7],[8,9,2],[3,4,6]]));
-
-
-// console.log(findMissingAndRepeatedValues([[9,1,7],[8,9,2],[3,4,6]]));
-
-
-
-// console.log(findMissingAndRepeatedValues( [[9,1,7],[8,9,2],[3,4,6]])); 
