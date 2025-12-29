@@ -20,4 +20,27 @@ return result
 };
 
 
-console.log(containsNearbyDuplicate([1,2,3,1,2,3], k = 2));
+// console.log(containsNearbyDuplicate([1,2,3,1,2,3], k = 2));
+
+
+var slidingWindowSolution = function(nums , k){
+
+     let window = new Set();
+
+     for(let i = 0;i<nums.length ;i++){
+
+         if(window.has(nums[i])){
+            return true;
+         }
+         window.add(nums[i])
+         if(window.size > k){
+            window.delete(nums[i-k])
+         }
+     }
+
+     return false
+}
+
+console.log(slidingWindowSolution([1,2,3,1], k = 3));
+
+
