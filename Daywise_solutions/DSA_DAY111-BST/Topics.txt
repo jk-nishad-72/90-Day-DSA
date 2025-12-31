@@ -1,0 +1,4 @@
+
+##DSA_DAY_111 BINARY SEARCH TREE ➡️ 31/12/25
+
+ —Q. *501. Find Mode in Binary Search Tree ✅
