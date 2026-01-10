@@ -1,0 +1,5 @@
+##DSA_DAY_121 ARRAY BIT MANIPULATION➡️ 10/01/2026
+
+—Q.  **137. Single Number II ✅** 
+
+   → using Frequency , or Traversing array
