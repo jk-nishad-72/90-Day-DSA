@@ -1,5 +1,3 @@
-
-
 ##DSA_DAY_122 ARRAY ➡️ 11/01/2026
 
 —Q. [**1991. Find the Middle Index in Array](https://leetcode.com/problems/find-the-middle-index-in-array/) ✅**  
@@ -8,4 +6,4 @@ Tommorrow is My Python exam and I test My python skill
 
 to solve this Q.. 
 
-I also solved Q in Javascript
+I also solved Q in Javascript 

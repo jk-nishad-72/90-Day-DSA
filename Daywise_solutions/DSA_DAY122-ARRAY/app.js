@@ -19,3 +19,8 @@ var findMiddleIndex = function(nums) {
     }
  return -1;
 };
+
+// Example usage:
+console.log(findMiddleIndex([2,3,-1,8,4])); 
+console.log(findMiddleIndex([1,-1,4])); 
+console.log(findMiddleIndex([2,5]));
