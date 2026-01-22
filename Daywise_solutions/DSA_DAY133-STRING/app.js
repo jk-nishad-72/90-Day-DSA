@@ -1,5 +1,5 @@
 
-console.log('DSA_DAY_132 ARRAY LINEAR SEARCH➡️ 21/01/2026'); 
+console.log('DSA_DAY_132 ARRAY LINEAR SEARCH➡️ 22/01/2026'); 
 
 var addStrings = function(num1, num2) {
     
