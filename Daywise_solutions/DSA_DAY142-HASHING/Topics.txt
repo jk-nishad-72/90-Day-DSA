@@ -1,0 +1,4 @@
+
+##DSA_DAY_142 HASHING  ➡️ 31/01/2026
+
+—> Q. 1002. Find Common Characters  ✅
