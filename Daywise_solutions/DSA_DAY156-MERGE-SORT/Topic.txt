@@ -1,0 +1,4 @@
+
+##DSA_DAY_156 MERGE SORT  ➡️ 14/02/2026
+
+—> Q. [**912. Sort an Array](https://leetcode.com/problems/sort-an-array/) ✅**
