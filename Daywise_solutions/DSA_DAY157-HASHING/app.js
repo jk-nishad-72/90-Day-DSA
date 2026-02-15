@@ -11,10 +11,10 @@ var secondHighest = function(s) {
         if(s[i] >= '0' && s[i] <= '9'){
             if(s[i] > max){
                  scMax = max;
-                 max = s[i];
+                 max = Number(s[i]);
             }else{
                 if(s[i] > scMax && s[i] < max){
-                    scMax = s[i];
+                    scMax = Number(s[i]);
                 }
             }
         }
@@ -22,4 +22,4 @@ var secondHighest = function(s) {
     return scMax;
 };
 
-console.log(secondHighest("abc1111"));
+console.log(secondHighest("dfa12321afd"));
