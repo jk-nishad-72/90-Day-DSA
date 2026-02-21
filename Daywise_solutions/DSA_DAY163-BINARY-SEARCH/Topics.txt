@@ -1,0 +1,9 @@
+
+#DSA_DAY_163 BINARY SEARCH ➡️ 21/02/2026
+
+—> Q. **4. Median of Two Sorted Arrays .** 
+
+1. Brute Force method is Done ✅ 
+2. Two Pointer Method  ✅ 
+3. Optimal Solution (BINARY SEARCH ) ✅ 
+
