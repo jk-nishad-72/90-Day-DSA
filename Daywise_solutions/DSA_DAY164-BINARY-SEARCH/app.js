@@ -5,7 +5,8 @@
  * @param {number} target
  * @return {boolean}
  */
-var search = function(nums, target) {
+
+var search = function(nums, target) { 
     let f = 0, l = nums.length - 1;
     while (f <= l) {
         let m = Math.floor((f + l) / 2);
