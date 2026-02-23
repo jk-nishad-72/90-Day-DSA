@@ -5,20 +5,35 @@
 
 
 // Brute Force Solution
-var findMin = function(nums) {
+// var findMin = function(nums) {
   
-    let min = nums[0];
-    for(let i = 1;i<nums.length;i++){
+//     let min = nums[0];
+//     for(let i = 1;i<nums.length;i++){
          
-          if(nums[i] < min){
-             min = nums[i]
-          }
+//           if(nums[i] < min){
+//              min = nums[i]
+//           }
+//     }
+//     return min
+// };
+
+// Optimal Solution
+var findMin = function(nums) {
+    let left = 0;
+    let right = nums.length - 1;
+    while(left < right){
+        let mid = Math.floor((left + right) / 2);
+        if(nums[mid] > nums[right]){
+            left = mid + 1;
+        } else {
+            right = mid;
+        }   
     }
-    return min
-};
+    return nums[left];
+}
 
 
 
 
 
-console.log(findMin([4,5,6,7,0,1,2]));
+console.log(findMin([11,13,15,17]));
