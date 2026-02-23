@@ -1,0 +1,7 @@
+
+##DSA_DAY_165 BINARY SEARCH ➡️ 23/02/2026
+
+—>Q. **153. Find Minimum in Rotated Sorted Array** 
+
+1. Brute Force Done ✅
+2. Optimal Binary Search Done ✅
