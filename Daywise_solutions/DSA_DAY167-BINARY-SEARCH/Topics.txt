@@ -1,0 +1,4 @@
+
+#DSA_DAY_167 BINARY SEARCH ➡️ 25/02/2026
+
+—>Q.**162. Find Peak Element ✅**
