@@ -1,0 +1,4 @@
+
+#DSA_DAY_172 LINKED LIST  ➡️ 02/03/2026
+
+—>Q. **2095. Delete the Middle Node of a Linked List ✅**
