@@ -1,0 +1,5 @@
+
+
+#DSA_DAY_175 HASHING ➡️ 05/03/2026
+
+—>Q. **290. Word Pattern ✅**
