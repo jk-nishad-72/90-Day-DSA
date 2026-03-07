@@ -1,3 +1,27 @@
+/**566. Reshape the Matrix
+ * @param {number[][]} mat
+ * @param {number} r
+ * @param {number} c
+ * @return {number[][]}
+ */
+var matrixReshape = function(mat, r, c) {
+    
 
+    let m = mat.length;
+    let n = mat[0].length;
 
-console.log('DAY_177 ARRAY➡️ 07032026');
+    if (m * n !== r * c) {
+        return mat;
+    }
+
+    let res = new Array(r).fill(0).map(() => new Array(c).fill(0));
+
+    for (let i = 0; i < m * n; i++) {
+        res[Math.floor(i / c)][i % c] = mat[Math.floor(i / n)][i % n];
+    }
+
+    return res;
+        
+};
+
+console.log(matrixReshape(mat = [[1,2],[3,4]], r = 1, c = 4));
