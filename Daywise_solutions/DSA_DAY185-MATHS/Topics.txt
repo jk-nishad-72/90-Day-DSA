@@ -1,0 +1,5 @@
+
+
+##DSA_DAY_185 BINARY SEARCH ➡️ 15/03/2026
+
+—>Q. **367. Valid Perfect Square ✅**
