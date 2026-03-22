@@ -1,3 +1,45 @@
 
 
-console.log('DAY_192 LINKED LIST ➡️ 22032026');
+//706. Design HashMap
+
+var MyHashMap = function() {
+    this.map  = {};
+};
+/** 
+ * @param {number} key 
+ * @param {number} value
+ * @return {void}
+ */
+MyHashMap.prototype.put = function(key, value) {
+    this.map[key] = value;
+};
+
+/** 
+ * @param {number} key
+ * @return {number}
+ */
+MyHashMap.prototype.get = function(key) {
+    return this.map[key] === undefined ? -1 : this.map[key];
+};
+
+/** 
+ * @param {number} key
+ * @return {void}
+ */
+MyHashMap.prototype.remove = function(key) {
+    
+    delete this.map[key];
+};
+
+/** 
+ * Your MyHashMap object will be instantiated and called as such:
+ 
+ */
+
+ var obj = new MyHashMap()
+ obj.put(1,10)
+ obj.put(2,20)
+ var param_2 = obj.get(2)
+ obj.remove(2)
+ console.log(obj,param_2);
+ 
