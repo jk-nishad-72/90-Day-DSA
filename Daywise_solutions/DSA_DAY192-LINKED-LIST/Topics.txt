@@ -1,0 +1,5 @@
+
+
+##DSA_DAY_192 LINKED LIST ➡️ 22/03/2026
+
+—>Q. **706. Design HashMap  ✅**
