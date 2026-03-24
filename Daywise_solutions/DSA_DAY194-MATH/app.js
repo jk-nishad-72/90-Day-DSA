@@ -1,1 +1,18 @@
-console.log('DAY_194 MATH➡️ 24032026 ');
+/** 342. Power of Four 
+ * @param {number} n
+ * @return {boolean}
+ */
+var isPowerOfFour = function(n) {
+    
+    if(n < 1 ) return false;
+
+    while(n % 4 === 0){
+        n /= 4;
+    }
+    return n ===1 ;
+};
+
+console.log(isPowerOfFour(16));
+console.log(isPowerOfFour(5));
+console.log(isPowerOfFour(1));
+console.log(isPowerOfFour(64));
