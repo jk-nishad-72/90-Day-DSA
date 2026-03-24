@@ -13,6 +13,7 @@ var relativeSortArray = function(arr1, arr2) {
             }
         }
     }   
+    
     for(let i = k; i < arr1.length; i++) {
         for(let j = i + 1; j < arr1.length; j++) {
             if(arr1[i] > arr1[j]) { 
