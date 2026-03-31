@@ -1,0 +1,5 @@
+
+
+#DSA_DAY_201 ARRAY ➡️ 31/03/2026
+
+—>Q. **3190. Find Minimum Operations to Make All Elements Divisible by Three ✅**
