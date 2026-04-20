@@ -6,6 +6,7 @@ var toLowerCase = function(s) {
     
      
     // return s.toLowerCase();
+    
     let result = '';
     for(let i = 0; i < s.length; i++){
         let charCode = s.charCodeAt(i);
