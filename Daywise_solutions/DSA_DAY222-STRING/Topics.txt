@@ -1,0 +1,4 @@
+
+##DSA_DAY_222 STRING ➡️ 21/04/2026
+
+—>Q. 1684. Count the Number of Consistent Strings ✅
