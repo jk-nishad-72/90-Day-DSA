@@ -24,6 +24,23 @@ var maxPower = function(s) {
     return power 
 };
 
+// O(n) solution
+var maxPower = function(s) {
+    let power = 1;
+    let cur = 1;
+
+    for (let i = 1; i < s.length; i++) {
+        if (s[i] === s[i - 1]) {
+            cur++;
+        } else {
+            cur = 1;
+        }
+        power = Math.max(power, cur);
+    }
+
+    return power;
+
+};
 
 console.log(maxPower('cc'));
 console.log(maxPower('leeeetcode'));
