@@ -1,0 +1,5 @@
+
+
+#DSA_DAY_223 STRING ➡️ 22/04/2026 
+
+—>Q. **1446. Consecutive Characters ✅**
