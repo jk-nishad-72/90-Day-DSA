@@ -45,4 +45,3 @@ var maxPower = function(s) {
 console.log(maxPower('cc'));
 console.log(maxPower('leeeetcode'));
 
-
